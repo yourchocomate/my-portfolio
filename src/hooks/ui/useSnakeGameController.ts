@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 const defaultOptions: ISnakeGameOptions = {
     snakeSize: 10,
     foodSize: 10,
-    snakeSpeed: 100,
+    snakeSpeed: 50,
     winScore: 10,
 };
 
