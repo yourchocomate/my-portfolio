@@ -107,28 +107,40 @@ const SnakeBoard: React.FC = () => {
                                 <Div></Div>
                                 <Button
                                     default
-                                    className="w-10 xl:w-16 !bg-primary-1"
+                                    className="w-10 xl:w-16 h-8 !bg-primary-1"
                                 >
-                                    ↑
+                                    <SVG
+                                        name="arrow-down-filled"
+                                        className="mx-auto rotate-180"
+                                    />
                                 </Button>
                                 <Div></Div>
                                 <Button
                                     default
-                                    className="w-10 xl:w-16 !bg-primary-1"
+                                    className="w-10 xl:w-16 h-8 !bg-primary-1"
                                 >
-                                    ←
+                                    <SVG
+                                        name="arrow-down-filled"
+                                        className="mx-auto rotate-90"
+                                    />
                                 </Button>
                                 <Button
                                     default
-                                    className="w-10 xl:w-16 !bg-primary-1"
+                                    className="w-10 xl:w-16 h-8 !bg-primary-1"
                                 >
-                                    ↓
+                                    <SVG
+                                        name="arrow-down-filled"
+                                        className="mx-auto"
+                                    />
                                 </Button>
                                 <Button
                                     default
-                                    className="w-10 xl:w-16 !bg-primary-1"
+                                    className="w-10 xl:w-16 h-8 !bg-primary-1"
                                 >
-                                    →
+                                    <SVG
+                                        name="arrow-down-filled"
+                                        className="mx-auto -rotate-90"
+                                    />
                                 </Button>
                             </Div>
                         </Column>
