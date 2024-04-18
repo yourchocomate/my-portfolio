@@ -1,0 +1,93 @@
+@theme {
+
+    /**
+     * Global styles
+     */
+    --left-sidebar-width-header: 21rem;
+    --left-sidebar-width-about: 21.06rem;
+
+    /**
+     * Screen breakpoints
+     */
+    --breakpoint-laptop: 1024px;
+    --breakpoint-laptop-l: 1440px;
+
+    /**
+     * Font family
+     */
+    --font-family-firacode: 'Fira Code', sans-serif;
+    --default-font-family: var(--font-family-firacode);
+    --color-*: initial;
+
+    /**
+     * Primary colors
+     */
+    --color-primary-1: #01080E;
+    --color-primary-2: #011627;
+    --color-primary-3: #011221;
+    --color-primary-4: #1C2B3A;
+    --color-primary-5: #263B50;
+
+    /**
+     * Secondary colors
+     */
+    --color-secondary-1: #607B96;
+    --color-secondary-2: #3C9D93;
+    --color-secondary-3: #4D5BCE;
+    --color-secondary-4: #FFFFFF;
+    --color-secondary-5: #175553b3;
+    --color-secondary-6: #43d9ad17;
+
+    /** 
+     * Accent colors
+     */
+    --color-accent-1: #FEA55F;
+    --color-accent-2: #43D9AD;
+    --color-accent-3: #E99287;
+    --color-accent-4: #C98BDF;
+    --color-accent-5: #E9D9CD;
+
+    /**
+     * Hover colors
+     */
+    --color-hover-primary: #FFAC6B;
+    --color-hover-default: #263B50;
+    --color-hover-ghost: #FFFFFF;
+
+    /**
+     * Stroke colors
+     */
+    --color-stroke-primary: #1E2D3D;
+    --color-stroke-secondary: #114944;
+
+    /**
+     * Meta Colors
+     */
+    --color-meta-1: #86E1F9;
+    --color-meta-2: #FFA67E;
+    --color-meta-3: #81D4AF;
+    --color-meta-4: #95D6F0;
+    --color-meta-5: #B7A1CE;
+    --color-meta-6: #F2A9B9;
+    --color-meta-7: #A0BDE1;
+
+    /**
+     * Gradient colors
+     */
+    --color-snake-gradient: linear-gradient(150.26deg, rgba(23, 85, 83, 0.7) 1.7%, rgba(67, 217, 173, 0.091) 81.82%);
+
+    /**
+     * Font sizes
+     */
+    --font-size-base: clamp(0.75rem, 1vw, 1rem);
+    --font-size-body: 1.125rem;
+    --font-size-label: 1rem;
+    --font-size-headings: clamp(2.875rem, 5vw, 3.875rem);
+    --font-size-subheadings: clamp(1rem, 2vw, 2rem);
+    --font-size-code: 0.875rem;
+
+    /**
+     * Border radius
+     */
+    --radius-base: 0.5em;
+}

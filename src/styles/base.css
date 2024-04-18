@@ -1,0 +1,44 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: var(--font-size-headings);
+}
+
+h2 {
+    font-size: var(--font-size-subheadings);
+}
+
+label {
+    font-size: var(--font-size-label);
+}
+
+body {
+    color: var(--color-secondary-1);
+}
+
+/* width */
+.scrollbar::-webkit-scrollbar {
+    scroll-behavior: smooth;
+    @apply w-[5px];
+}
+
+/* Track */
+.scrollbar::-webkit-scrollbar-track {
+    @apply bg-transparent border-l border-stroke-primary hidden;
+}
+
+.scrollbar::-webkit-scrollbar-track:hover {
+    @apply flex;
+}
+
+/* Handle */
+.scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-primary-4 rounded-sm;
+}
+
+/* Handle on hover */
+.scrollbar::-webkit-scrollbar-thumb:hover {
+    @apply bg-secondary-1 flex;
+}

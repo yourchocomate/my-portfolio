@@ -1,0 +1,81 @@
+.column {
+    @apply flex flex-col;
+}
+
+.column-between {
+    @apply flex flex-col justify-between;
+}
+
+.column-reverse {
+    @apply flex flex-col-reverse;
+}
+
+.row {
+    @apply flex flex-row;
+}
+
+.row-reverse {
+    @apply flex flex-row-reverse;
+}
+
+.row-between {
+    @apply flex justify-between;
+}
+
+.left-sidebar {
+    @apply lg:w-[var(--left-sidebar-width-header)];
+}
+    
+.left-sidebar-about {
+    @apply lg:w-[var(--left-sidebar-width-about)];
+}
+
+.left-sidebar-contact {
+    @apply lg:w-[var(--left-sidebar-width-about)];
+}
+
+.left-sidebar-projects {
+    @apply lg:w-[var(--left-sidebar-width-about)];
+}
+
+.snake-board {
+    background: var(--color-snake-gradient);
+    @apply w-5/6 aspect-[1.12/1] p-8 relative rounded-base outline-1 outline-primary-1 border-t;
+}
+
+.snake-game {
+    @apply bg-primary-2 rounded-base relative;
+    box-shadow: inset var(--color-primary-1) 0px 0px 10px 1px;
+}
+
+.bolt {
+    @apply absolute w-4 h-4 rounded-base p-1;
+    color: var(--color-stroke-primary);
+    box-shadow: 2px 2px 4px #020f0e, inset 0px 1px 2px #10433e;
+}
+
+.bolt-up-left {
+    background: radial-gradient(73.08% 73.08% at 50% 26.92%, #196C6A 15.1%, #114B4A 100%);
+    @apply top-2 left-2;
+}
+
+.bolt-up-right {
+    background: radial-gradient(73.08% 73.08% at 50% 26.92%, #217D7A 15.1%, #114B4A 100%);
+    @apply top-2 right-2;
+}
+
+.bolt-down-left {
+    background: radial-gradient(73.08% 73.08% at 50% 26.92%, #164C51 15.1%, #0D3A40 100%);
+    box-shadow: 2px 2px 4px #092D32, inset 0px 1px 2px #16645C;
+    @apply bottom-2 left-2;
+}
+
+.bolt-down-right {
+    background: radial-gradient(73.08% 73.08% at 50% 26.92%, #234B7C 15.1%, #122E4F 100%);
+    box-shadow: 2px 2px 4px #122C4E, inset 0px 1px 2px #2C588D;
+    @apply bottom-2 right-2;
+}
+
+.input {
+    @apply py-1 px-2 bg-primary-3 border border-stroke-primary rounded-base focus:border-secondary-1 outline-none focus:shadow-[0_0_0_2px_rgb(96_123_150/30%)];
+}
