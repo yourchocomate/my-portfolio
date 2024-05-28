@@ -1,0 +1,1 @@
+import{r as t}from"../vendor/react-BCQsROhv.js";const o=e=>t.createElement("svg",{width:18,height:13,viewBox:"0 0 18 13",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e},t.createElement("path",{d:"M6.99999 10.172L16.192 0.979L17.607 2.393L6.99999 13L0.635986 6.636L2.04999 5.222L6.99999 10.172Z",fill:"currentColor"}));export{o as default};
